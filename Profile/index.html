@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="src/styles.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/74ab53732f.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Profile</title>
+	</head>
+	<body>
+		<nav>
+			<img src="src/images/logo.jpg" alt="Logo Image" class="logo" />
+			<button class="hamburger" id="hamburger">
+				<i class="fas fa-bars"></i>
+			</button>
+			<ul class="nav-bar" id="nav-list">
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#">Github</a></li>
+				<li><a href="./pages/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<div class="hero-info">
+				<h1 id="name">Manoj Singh</h1>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+					consequatur fuga corporis error consectetur excepturi!
+				</p>
+				<div class="styled-break"></div>
+				<div class="button">Hire Me</div>
+			</div>
+			<div>
+				<img
+					class="hero-image"
+					src="src/images/working.jpg"
+					alt="Working Image"
+				/>
+			</div>
+		</div>
+		<section>
+			<div class="about-me">
+				<img class="avatar" src="src/images/profile.png" alt="Profile Pic" />
+			</div>
+			<div class="info">
+				<h2><a name="about-me">About Me</a></h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nisi
+					commodi accusantium accusamus aliquam et sed ex cupiditate, nemo
+					quidem cumque, suscipit tenetur. Aperiam minus aut sapiente quis
+					ullam.
+				</p>
+			</div>
+		</section>
+		<section>
+			<i class="fa-brands fa-square-facebook icon"></i>
+			<i class="fa-solid fa-camera icon"></i>
+			<i class="fa-solid fa-video icon"></i>
+			<i class="fa-solid fa-circle-user icon"></i>
+			<i class="fa-solid fa-circle-user icon"></i>
+		</section>
+		<section>
+			<form action="">
+				<h2>Contact Me</h2>
+				<div class="input-section">
+					<div class="input-group">
+						<label for="first-name">First Name</label>
+						<input
+							type="text"
+							id="first-name"
+							name="first-name"
+							placeholder="Jhon"
+						/>
+					</div>
+					<div class="input-group">
+						<label for="">Last Name</label>
+						<input
+							type="text"
+							id="last-name"
+							name="last-name"
+							placeholder="Doe"
+						/>
+					</div>
+				</div>
+				<div class="input-section">
+					<input type="radio" id="office" value="office" name="office" />
+					<label for="office">Office</label>
+					<input type="radio" id="remote" value="remote" name="remote" />
+					<label for="remote">Remote</label>
+					<input type="radio" id="other" value="other" name="other" />
+					<label for="office">Other</label>
+				</div>
+				<div class="input-section">
+					<input
+						type="checkbox"
+						id="contarct"
+						value="contarct"
+						name="contarct"
+					/>
+					<label for="office">Contract</label>
+					<input
+						type="checkbox"
+						id="full-time"
+						value="full-time"
+						name="full-time"
+					/>
+					<label for="remote">Full Time</label>
+					<input type="checkbox" id="spons" value="spons" name="spons" />
+					<label for="office">Spons</label>
+				</div>
+				<input class="button" type="submit" value="Submit" />
+			</form>
+		</section>
+		<footer>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#github">Github</a></li>
+			</ul>
+		</footer>
+		<script src="src/index.js"></script>
+	</body>
+</html>
